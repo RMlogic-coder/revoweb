@@ -793,7 +793,19 @@ about
   display: inline-block;
 }
 
-
+.title{
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color:#f4813e;
+  margin: 35px 0;
+  text-decoration: underline;
+}
+@media (max-width: 425px) {
+  .title {
+    font-size: 3rem;
+  }
+}
 /*
 ---------------------------------------------
 promotion
@@ -835,7 +847,6 @@ promotion
 
 #promotion .right-text img {
   display: inline-block;
-  float: left;
   margin-right: 30px;
 }
 
@@ -880,6 +891,7 @@ testimonials
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
+  height: 300px;
 }
 
 #testimonials .item .testimonial-content ul li {
