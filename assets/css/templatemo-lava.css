@@ -854,8 +854,9 @@ about
   .features-item {
     margin-bottom: 45px;
   }
-    .welcome-area .header-text .left-text {
-    left: 0px;
+
+  .welcome-area .header-text .left-text {
+    left: 20px;
     text-align: center;
   }
 
@@ -909,6 +910,11 @@ about
 @media (max-width: 425px) {
   .title {
     font-size: 3rem;
+  }
+
+  .welcome-area .header-text .left-text {
+    left: 10px;
+    text-align: center;
   }
 }
 
